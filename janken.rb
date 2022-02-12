@@ -63,6 +63,7 @@ loop do
         
         if finger_direction_type === cpu_face_direction_type
             puts "あなたは勝ちました"
+            break
         else
         end
     #負けの時
@@ -101,6 +102,7 @@ loop do
         
         if face_direction_type === cpu_finger_direction_type
             puts "あなたは負けました"
+            break
         else
         end
     else
